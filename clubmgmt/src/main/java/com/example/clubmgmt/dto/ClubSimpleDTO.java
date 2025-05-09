@@ -1,0 +1,13 @@
+package com.example.clubmgmt.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ClubSimpleDTO {
+    private Long id;
+    private String name;
+}
